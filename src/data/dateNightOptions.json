@@ -1,0 +1,29 @@
+[
+  {
+    "name": "The Italian Place",
+    "location": "New York, NY",
+    "price": "$$",
+    "type": "Restaurant",
+    "rating": 4.5,
+    "image": "https://imageio.forbes.com/specials-images/imageserve/62fe3a28c22bf8624fce7c7a/restaurant-interior-with-green-banquets/960x0.jpg?format=jpg&width=960",
+    "description": "A cozy Italian restaurant with a wide variety of pasta dishes, pizzas, and wines."
+  },
+  {
+    "name": "The Jazz Club",
+    "location": "Los Angeles, CA",
+    "price": "$$$",
+    "type": "Bar",
+    "rating": 4.3,
+    "image": "https://cdn.vox-cdn.com/thumbor/gEKn71WfHCvIBcBEo3MWZk192-w=/0x0:720x576/920x613/filters:focal(303x231:417x345):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/54349971/Lounge_front_of_bar.0.jpg",
+    "description": "A popular jazz club featuring live music and a stylish atmosphere."
+  },
+  {
+    "name": "The Art Museum",
+    "location": "Chicago, IL",
+    "price": "$",
+    "type": "Activity",
+    "rating": 4.7,
+    "image": "https://media.timeout.com/images/102850781/750/422/image.jpg",
+    "description": "A world-class art museum with a diverse collection of paintings, sculptures, and other artworks."
+  }
+]

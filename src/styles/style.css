@@ -1,0 +1,119 @@
+.date-night-options-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.date-night-option {
+    width: 30%;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+    text-align: center;
+}
+
+.date-night-option img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.date-night-option .info {
+    margin-top: 1em;
+}
+
+.date-night-option h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.date-night-option p {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.home a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.home a:hover {
+    background-color: #333;
+    color: #fff;
+}
+nav {
+    background-color: #2e8b57; /* sea green */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white; /* white */
+    text-decoration: none;
+}
+footer {
+    background-color: #2e8b57; /* sea green */
+    color: white; /* white */
+    padding: 10px;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .date-night-options-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+/* styles for screens smaller than 768px */
+@media (max-width: 767px) {
+    .date-night-options-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .date-night-option {
+        width: 75%;
+        margin: 1em 0;
+        padding: 1em;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 5px #ccc;
+        text-align: center;
+    }
+}
