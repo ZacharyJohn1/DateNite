@@ -43,11 +43,11 @@
 .home h1 {
   font-size: 48px;
   margin-bottom: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .find {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 .home p {
   font-size: 24px;
@@ -90,9 +90,13 @@
 nav {
   background-color: #2e8b57; /* sea green */
   display: flex;
-  justify-content: space-between;
+  justify-content: center, space-between;
   padding: 10px;
+  padding-top: 40px;
   color: white;
+  height: 60px;
+  font-size: x-large;
+  font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 nav ul {
@@ -100,6 +104,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-around;
 }
 
 nav li {
@@ -109,6 +114,7 @@ nav li {
 nav a {
   color: white; /* white */
   text-decoration: none;
+  justify-content: center;
 }
 footer {
   background-color: #2e8b57; /* sea green */

@@ -14,8 +14,8 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/all-dates" element={<DateNightOptionsList />} />
-        <Route path="/options/:name" component={SingleEventPage} />
-        <Route path="/filtered-options" component={FilteredOptions} />
+        <Route path="/options/name" element={<SingleEventPage />} />
+        <Route path="/filtered-options" element={<FilteredOptions />} />
         </Routes>
         <Footer />
       </Router>
