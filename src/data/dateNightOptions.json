@@ -5,7 +5,7 @@
     "price": "$$",
     "type": "Restaurant",
     "rating": 4.5,
-    "image": "https://imageio.forbes.com/specials-images/imageserve/62fe3a28c22bf8624fce7c7a/restaurant-interior-with-green-banquets/960x0.jpg?format=jpg&width=960",
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063888660795240619/DALLE_2023-01-14_12.33.34_-_A_cozy_Italian_restaurant_with_a_wide_variety_of_pasta_dishes_drawn_by_Hiroshi_Nagai.png?width=910&height=910",
     "description": "A cozy Italian restaurant with a wide variety of pasta dishes, pizzas, and wines."
   },
   {
@@ -14,7 +14,7 @@
     "price": "$$$",
     "type": "Bar",
     "rating": 4.3,
-    "image": "https://cdn.vox-cdn.com/thumbor/gEKn71WfHCvIBcBEo3MWZk192-w=/0x0:720x576/920x613/filters:focal(303x231:417x345):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/54349971/Lounge_front_of_bar.0.jpg",
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063888223815876698/DALLE_2023-01-14_12.31.49_-_A_Jazz_Club_in_LA_with_a_man_playing_a_trumpet_painted_by_Michelangelo_.png?width=910&height=910",
     "description": "A popular jazz club featuring live music and a stylish atmosphere."
   },
   {
@@ -23,7 +23,88 @@
     "price": "$",
     "type": "Activity",
     "rating": 4.7,
-    "image": "https://media.timeout.com/images/102850781/750/422/image.jpg",
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063887932777320488/DALLE_2023-01-14_12.30.40_-_You_are_at_The_Art_Museum_and_its_raining_out_but_you_have_a_latte_and_are_cozily_looking_at_art_and_someone_takes_a_photo.png?width=910&height=910",
     "description": "A world-class art museum with a diverse collection of paintings, sculptures, and other artworks."
+  },
+  {
+    "name": "Sushi Paradise",
+    "location": "Los Angeles, CA",
+    "price": "$$$",
+    "type": "Sushi Restaurant",
+    "rating": 4.2,
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063880588861382778/sushiparadise.png?width=910&height=910",
+    "description": "A top-rated sushi restaurant with a wide variety of rolls and sashimi, as well as a selection of Japanese beers and sake."
+  },
+  {
+    "name": "The Steakhouse",
+    "location": "Chicago, IL",
+    "price": "$$$$",
+    "type": "Steakhouse",
+    "rating": 4.8,
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063881252324769832/DALLE_2023-01-14_12.02.44_-_The_Steakhouse.png?width=910&height=910",
+    "description": "A high-end steakhouse with a wide variety of cuts of meat, as well as a selection of wines and cocktails."
+  },
+  {
+    "name": "The Seafood Shack",
+    "location": "Houston, TX",
+    "price": "$$",
+    "type": "Seafood Restaurant",
+    "rating": 4.1,
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063881251825668216/DALLE_2023-01-14_12.03.29_-_The_Seafood_Shack_inside.png?width=910&height=910",
+    "description": "A casual seafood restaurant with a wide variety of seafood dishes, as well as a selection of beers and wines."
+  },
+  {
+    "name": "The French Bistro",
+    "location": "Miami, FL",
+    "price": "$$$",
+    "type": "French Restaurant",
+    "rating": 4.3,
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063881251225878548/DALLE_2023-01-14_12.04.01_-_The_French_Bistro.png?width=910&height=910",
+    "description": "A cozy French bistro with a wide variety of classic French dishes"
+  },
+  {
+    "name": "The Chinese Restaurant",
+    "location": "San Francisco, CA",
+    "price": "$$",
+    "type": "Chinese Restaurant",
+    "rating": 4.0,
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063881752919162970/DALLE_2023-01-14_12.06.03_-_A_casual_Chinese_restaurant_with_a_wide_variety_of_classic_Chinese_dishes_as_well_as_a_selection_of_beers_and_wines..png?width=910&height=910",
+    "description": "A casual Chinese restaurant with a wide variety of classic Chinese dishes, as well as a selection of beers and wines."
+  },
+  {
+    "name": "The Indian Restaurant",
+    "location": "New York, NY",
+    "price": "$$",
+    "type": "Indian Restaurant",
+    "rating": 4.4,
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063882007681187951/DALLE_2023-01-14_12.07.07_-_A_casual_Indian_restaurant_with_a_wide_variety_of_classic_Indian_dishes_secretly_made_by_aliens.png?width=910&height=910",
+    "description": "A casual Indian restaurant with a wide variety of classic Indian dishes, as well as a selection of beers and wines."
+  },
+  {
+    "name": "The Mexican Restaurant",
+    "location": "Los Angeles, CA",
+    "price": "$",
+    "type": "Mexican Restaurant",
+    "rating": 4.5,
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063882906591826061/DALLE_2023-01-14_12.10.40_-_the_best_Mexican_restaurant_in_the_galaxy_in_the_year_4500.png?width=910&height=910",
+    "description": "A casual Mexican restaurant with a wide variety of classic Mexican dishes, as well as a selection of beers and wines."
+  },
+  {
+    "name": "The Thai Restaurant",
+    "location": "Chicago, IL",
+    "price": "$$",
+    "type": "Thai Restaurant",
+    "rating": 4.3,
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063882603792453754/DALLE_2023-01-14_12.09.29_-_A_casual_Thai_restaurant_in_chicago_drawn_by_a_hyperrealist_artist_.png?width=910&height=910",
+    "description": "A casual Thai restaurant with a wide variety of classic Thai dishes, as well as a selection of beers and wines."
+  },
+  {
+    "name": "The Korean Restaurant",
+    "location": "Houston, TX",
+    "price": "$$",
+    "type": "Korean Restaurant",
+    "rating": 4.2,
+    "image": "https://media.discordapp.net/attachments/1063880475472580762/1063883212016861264/DALLE_2023-01-14_12.11.55_-_a_Korean_restaurant_in_Houston_run_by_Paul_Atreids_in_the_middle_of_the_spice_wars_.png?width=910&height=910",
+    "description": "A casual Korean restaurant with a wide variety of classic Korean dishes, as well as a selection of beers and wines."
   }
 ]
