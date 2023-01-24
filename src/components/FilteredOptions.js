@@ -1,10 +1,12 @@
-import { React, useLocation, useState, useEffect } from 'react';
+import { React, useState, useEffect } from 'react';
 import dateNightOptions from '../data/dateNightOptions.json';
+import { useLocation } from 'react-router-dom'
 
 const FilteredOptions = () => {
-    const { selectedType, selectedLocation } = useLocation().state;
+    const location = useLocation();
+    
     const [filteredOptions, setFilteredOptions] = useState([]);
-
+    const { selectedType, selectedLocation } = location.state;
     useEffect(() => {
         const filtered = dateNightOptions.filter(
           option =>
@@ -12,6 +14,7 @@ const FilteredOptions = () => {
         );
         setFilteredOptions(filtered);
     }, [selectedType, selectedLocation]);
+    console.log(filteredOptions)
     return (
         <div>
             {filteredOptions.map((option, index) => (

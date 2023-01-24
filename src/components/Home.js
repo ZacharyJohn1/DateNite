@@ -3,6 +3,7 @@ import "../styles/style.css";
 import dateNightOptions from "../data/dateNightOptions.json";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+
 function Home() {
   const [selectedType, setSelectedType] = useState(null);
   const [selectedLocation, setSelectedLocation] = useState(null);
@@ -25,13 +26,13 @@ function Home() {
         {locationOptions}
       </select>
       <Link
-  to={{
-    pathname: "/filtered-options",
-    state: { selectedType, selectedLocation }
-  }}
->
-  <button>Search</button>
-</Link>
+        to={{
+          pathname: "/filtered-options",
+          state: { selectedType: selectedType, selectedLocation: selectedLocation },
+        }}
+      >
+        <button>Search</button>
+      </Link>
     </div>
   );
 }
